@@ -25,7 +25,7 @@ The package provides GoogleMock.
 
 %build
 
-sudo yum install ros-jazzy-ament-package -y
+yum install ros-jazzy-ament-package -y
 
 # 修复 PYTHONPATH 环境变量
 export PYTHONPATH=/opt/ros/jazzy/lib/python3.11/site-packages:$PYTHONPATH
